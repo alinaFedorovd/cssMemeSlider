@@ -9,8 +9,8 @@
 
 
 .imgE{
-  width: 30%; 
-  height: 30%;
+  /* width: 10rem;  */
+  height: 20rem;
 
 }
 
@@ -49,7 +49,12 @@
   .conr:hover {
     background-color: #86878a; 
   }
-  
+
+  .conr-activ{
+    background-color: white ;
+    border: 0.1rem solid  #a3b1b8; ;
+  }
+
   .bgr{
     background-color: aqua;
   }

@@ -13,17 +13,19 @@ element1.addEventListener('click', () => {
     document.querySelector('.imgE3').classList.remove('visible');
     document.querySelector('.imgE4').classList.remove('visible');
     document.querySelector('.imgE1').classList.add('visible');
-        document.getElementById('text').textContent = '';
+    document.getElementById('text').textContent = '';
     document.getElementById('text').textContent = 'я первый!'
+
+    element1.classList.remove('conr-activ');
+    element2.classList.remove('conr-activ');
+    element3.classList.remove('conr-activ');
+    element4.classList.remove('conr-activ');
+    element1.classList.add('conr-activ');
 
   });
 
 element2.addEventListener('click', () => {
-    // document.getElementById('text').classList.add('bgr');
 
-    // document.querySelector('.imgE1').classList.remove('visible');
-    // document.querySelector('.imgE1').classList.add('invisible');
-    // document.querySelector('.imgE2').classList.add('visible');
 
     document.querySelector('.imgE1').classList.remove('visible');
     document.querySelector('.imgE2').classList.remove('visible');
@@ -32,7 +34,13 @@ element2.addEventListener('click', () => {
     document.querySelector('.imgE1').classList.add('invisible');
     document.querySelector('.imgE2').classList.add('visible');
     document.getElementById('text').textContent = '';
-    document.getElementById('text').textContent = 'я второй!'
+    document.getElementById('text').textContent = 'я второй!';
+
+    element1.classList.remove('conr-activ');
+    element2.classList.remove('conr-activ');
+    element3.classList.remove('conr-activ');
+    element4.classList.remove('conr-activ');
+    element2.classList.add('conr-activ');
 
   });
 
@@ -45,7 +53,13 @@ element2.addEventListener('click', () => {
     document.querySelector('.imgE1').classList.add('invisible');
     document.querySelector('.imgE3').classList.add('visible');
         document.getElementById('text').textContent = '';
-    document.getElementById('text').textContent = 'я третий!'
+    document.getElementById('text').textContent = 'я третий!';
+
+    element1.classList.remove('conr-activ');
+    element2.classList.remove('conr-activ');
+    element3.classList.remove('conr-activ');
+    element4.classList.remove('conr-activ');
+    element3.classList.add('conr-activ');
   });
 
   element4.addEventListener('click', () => {
@@ -57,6 +71,12 @@ element2.addEventListener('click', () => {
     document.querySelector('.imgE1').classList.add('invisible');
     document.querySelector('.imgE4').classList.add('visible');
         document.getElementById('text').textContent = '';
-    document.getElementById('text').textContent = 'я четвертый'
+    document.getElementById('text').textContent = 'я четвертый';
+
+    element1.classList.remove('conr-activ');
+    element2.classList.remove('conr-activ');
+    element3.classList.remove('conr-activ');
+    element4.classList.remove('conr-activ');
+    element4.classList.add('conr-activ');
 
   });
