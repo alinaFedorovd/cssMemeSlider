@@ -14,7 +14,9 @@ element1.addEventListener('click', () => {
     document.querySelector('.imgE4').classList.remove('visible');
     document.querySelector('.imgE1').classList.add('visible');
     document.getElementById('text').textContent = '';
-    document.getElementById('text').textContent = 'я первый!'
+    document.getElementById('text').textContent = 'я первый!';
+    document.getElementById('text').classList.remove('active-text');
+    document.getElementById('text').classList.add('active-text');
 
     element1.classList.remove('conr-activ');
     element2.classList.remove('conr-activ');
@@ -33,8 +35,12 @@ element2.addEventListener('click', () => {
     document.querySelector('.imgE4').classList.remove('visible');
     document.querySelector('.imgE1').classList.add('invisible');
     document.querySelector('.imgE2').classList.add('visible');
-    document.getElementById('text').textContent = '';
+
+    document.getElementById('text').textContent = '';   
+    document.getElementById('text').classList.add('text-non');    
     document.getElementById('text').textContent = 'я второй!';
+    document.getElementById('text').classList.remove('text-non');
+   
 
     element1.classList.remove('conr-activ');
     element2.classList.remove('conr-activ');
