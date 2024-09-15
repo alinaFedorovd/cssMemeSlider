@@ -1,0 +1,55 @@
+.container {
+  margin: 0 auto;
+  padding: 0 40px 0 40px;
+}
+.img-holder{
+  display: flex;
+  justify-content: center;
+}
+
+
+.imgE{
+  width: 30%; 
+  height: 30%;
+
+}
+
+.invisible{
+  display: none;
+}
+
+.visible{
+  display: block;
+}
+
+.cotrolers{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.text{
+  display: flex;
+  justify-content: center;
+}
+
+
+.conr {
+    width: 2em; 
+    height: 2em; 
+    margin: 1em;
+    background-color: #a3b1b8; 
+    border: none; 
+    border-radius: 50%; 
+    cursor: pointer; /
+    transition: background-color 0.3s ease;
+  }
+  
+  .conr:hover {
+    background-color: #86878a; 
+  }
+  
+  .bgr{
+    background-color: aqua;
+  }
